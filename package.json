@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/alun-dra/starts/issues"
   },
-  "homepage": "https://github.com/alun-dra/starts#readme"
+  "homepage": "https://github.com/alun-dra/starts#readme",
+  "dependencies": {
+    "commander": "^11.0.0"
+  }
 }
