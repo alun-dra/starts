@@ -68,12 +68,12 @@ export class Component {
             for (const key of keys1) {
                 // Si la clave no existe en obj2, no son iguales
                 if (!obj2.hasOwnProperty(key)) {
-                return false;
+                  return false;
                 }
         
                 // Comparar los valores de las claves recursivamente
                 if (!deepCompare(obj1[key], obj2[key])) {
-                return false;
+                  return false;
                 }
             }
         
@@ -94,4 +94,48 @@ export class Component {
       throw new Error('El método "renderContent" debe ser implementado en las clases hijas.');
     }
   }
-  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

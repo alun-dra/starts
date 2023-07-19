@@ -1,8 +1,8 @@
 
-const { Command } = require('commander');
-const createCommand = require('./commands/create').default;
-const startCommand = require('./commands/start').default;
-const { Component, Router } = require('../core');
+import { Command } from 'commander';
+import createCommand from './commands/create';
+import startCommand from './commands/start';
+import { Component, Router } from '../core';
 
 // Configurar los comandos del CLI
 const program = new Command();
