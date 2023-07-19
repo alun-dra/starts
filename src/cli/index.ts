@@ -1,8 +1,6 @@
-
 import { Command } from 'commander';
-import createCommand from '../cli/commands/create.js';
-import startCommand from '../cli/commands/start.js';
-import { Component, Router } from '../core';
+import createCommand from './commands/create';
+import startCommand from './commands/start';
 
 // Configurar los comandos del CLI
 const program = new Command();
