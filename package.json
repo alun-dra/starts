@@ -1,6 +1,6 @@
 {
   "name": "starts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "```bash\r npm i\r ```",
   "main": "main.js",
   "type": "module",
