@@ -1,6 +1,6 @@
 {
   "name": "strats",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "```bash\r npm i\r ```",
   "main": "main.js",
   "type": "module",
