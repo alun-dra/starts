@@ -5,5 +5,5 @@ npm i
 
 ## CLI usage
 ```bash
-npm start
+npx created
 ```

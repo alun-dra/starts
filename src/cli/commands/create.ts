@@ -7,6 +7,7 @@ const createCommand = new Command('create-starts <nombreDeLaApp>').description(
 );
 
 createCommand.action(({ nombreDeLaApp }: { nombreDeLaApp: string }) => {
+  console.log('Nombre del proyecto:', nombreDeLaApp); // Agregar esta línea para verificar el valor
   createProject(nombreDeLaApp);
 });
 
