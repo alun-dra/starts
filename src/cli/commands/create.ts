@@ -1,17 +1,15 @@
 import { Command } from 'commander';
 import * as path from 'path';
 import * as fse from 'fs-extra';
+import { execSync } from 'child_process';
 
 const createCommand = new Command('create-starts <nombreDeLaApp>').description(
   'Crear un nuevo proyecto',
 );
 
 createCommand.action(({ nombreDeLaApp }: { nombreDeLaApp: string }) => {
-  console.log('Nombre del proyecto:', nombreDeLaApp); // Agregar esta línea para verificar el valor
-  createProject(nombreDeLaApp);
-});
+  console.log('Nombre del proyecto:', nombreDeLaApp);
 
-function createProject(nombreDeLaApp: string) {
   const projectPath = path.join(process.cwd(), nombreDeLaApp);
 
   try {
@@ -43,9 +41,15 @@ function createProject(nombreDeLaApp: string) {
     });
 
     console.log('¡Proyecto creado exitosamente!');
+
+    // Ejecutar el comando npx strats create-starts con el nombre del proyecto como argumento
+    execSync(`npx strats create-starts ${nombreDeLaApp}`, {
+      stdio: 'inherit', // Mostrar la salida del comando en la consola actual
+      cwd: projectPath, // Establecer el directorio de trabajo actual para npx
+    });
   } catch (err) {
     console.error('Error al crear el proyecto:', err);
   }
-}
+});
 
 export default createCommand;
