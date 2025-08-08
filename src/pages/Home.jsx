@@ -123,26 +123,32 @@ function Home() {
               {
                 title: "Automatización y migración a la nube",
                 desc: "Impulsa tu transición hacia la nube con soluciones automatizadas y arquitectura escalable, optimizando recursos y reduciendo riesgos operativos.",
+                href: "/automatizacionymigracion" // enlace único
               },
               {
                 title: "Inteligencia de datos y analítica en la nube",
                 desc: "Convierte grandes volúmenes de datos en información útil para decisiones estratégicas mediante plataformas analíticas avanzadas y entornos cloud seguros.",
+                href: "/inteligencia" // enlace único
               },
               {
                 title: "Inteligencia artificial y machine learning",
                 desc: "Implementa modelos predictivos personalizados que mejoran la eficiencia operativa y la experiencia del usuario con IA adaptada a tu negocio.",
+                href: "#automatizacion" // enlace único
               },
               {
                 title: "Infraestructura multicloud flexible",
                 desc: "Desarrollamos entornos híbridos y multicloud para maximizar rendimiento, disponibilidad y cumplimiento según tus necesidades técnicas y de negocio.",
+                href: "#automatizacion" // enlace único
               },
               {
                 title: "Soluciones empresariales integradas",
                 desc: "Diseñamos software a medida que se conecta con tus sistemas existentes para agilizar procesos internos, automatizar tareas y escalar tu operación.",
+                href: "#automatizacion" // enlace único
               },
               {
                 title: "Monitoreo industrial en tiempo real",
                 desc: "Creamos sistemas de software para plantas industriales con visualización en tiempo real, control de procesos, alarmas y conexión con sensores o PLCs.",
+                href: "#automatizacion" // enlace único
               }
             ].map((item, idx) => (
               <div
@@ -158,7 +164,7 @@ function Home() {
                   </p>
                 </div>
                 <a
-                  href="#contacto"
+                  href={item.href}
                   className="mt-4 inline-block text-sm font-semibold text-dark border-b-2 border-dark/40 hover:text-primary hover:border-primary transition duration-200"
                 >
                   Más información
