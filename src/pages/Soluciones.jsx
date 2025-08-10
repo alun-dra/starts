@@ -1,11 +1,11 @@
 // src/pages/Soluciones.jsx
-import { Helmet } from "react-helmet-async";
+
 import fondo5 from "../assets/fondo5.jpg";
 
 function Soluciones() {
   return (
     <>
-      <Helmet>
+      
         <title>Soluciones empresariales integradas | starts</title>
         <meta
           name="description"
@@ -26,7 +26,7 @@ function Soluciones() {
         />
         <meta property="og:type" content="website" />
         <meta property="og:image" content={fondo5} />
-      </Helmet>
+      
 
       {/* Hero */}
       <div

@@ -1,11 +1,11 @@
-import { Helmet } from "react-helmet-async";
+
 import fondo2 from "../assets/fondo2.jpg";
 
 export default function Inteligencia() {
   return (
     <div className="min-h-screen flex flex-col bg-white text-dark">
       {/* Metadatos */}
-      <Helmet>
+      
         <title>Inteligencia de datos y analítica en la nube | starts</title>
         <meta
           name="description"
@@ -21,7 +21,7 @@ export default function Inteligencia() {
         />
         <meta property="og:type" content="website" />
         <meta property="og:image" content={fondo2} />
-      </Helmet>
+      
 
       {/* Hero */}
       <div

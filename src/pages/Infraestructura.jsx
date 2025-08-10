@@ -1,11 +1,11 @@
 // src/pages/Infraestructura.jsx
-import { Helmet } from "react-helmet-async";
+
 import fondo4 from "../assets/fondo4.jpg";
 
 function Infraestructura() {
   return (
     <>
-      <Helmet>
+      
         <title>Infraestructura multicloud flexible | starts</title>
         <meta
           name="description"
@@ -23,7 +23,7 @@ function Infraestructura() {
         />
         <meta property="og:type" content="website" />
         <meta property="og:image" content={fondo4} />
-      </Helmet>
+      
 
       {/* Hero */}
       <div

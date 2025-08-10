@@ -1,11 +1,11 @@
 // src/pages/Monitoreo.jsx
-import { Helmet } from "react-helmet-async";
+
 import fondo6 from "../assets/fondo6.jpg";
 
 function Monitoreo() {
   return (
     <>
-      <Helmet>
+      
         <title>Monitoreo industrial en tiempo real | starts</title>
         <meta
           name="description"
@@ -26,7 +26,7 @@ function Monitoreo() {
         />
         <meta property="og:type" content="website" />
         <meta property="og:image" content={fondo6} />
-      </Helmet>
+      
 
       {/* Hero */}
       <div

@@ -1,12 +1,12 @@
 // src/pages/Ia.jsx
 import fondo3 from "../assets/fondo3.jpg";
-import { Helmet } from "react-helmet-async";
+
 import { AiOutlineRobot, AiOutlineLineChart, AiOutlineAlert } from "react-icons/ai";
 
 function Ia() {
   return (
     <>
-      <Helmet>
+      
         <title>Inteligencia de Datos y Analítica en la Nube | Starts</title>
         <meta
           name="description"
@@ -24,7 +24,7 @@ function Ia() {
         />
         <meta property="og:image" content={fondo3} />
         <meta property="og:type" content="website" />
-      </Helmet>
+      
 
         {/* Hero */}
         <div

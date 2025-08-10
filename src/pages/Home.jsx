@@ -1,4 +1,4 @@
-import { Helmet } from "react-helmet-async";
+
 import heroImg from "../assets/img-home.png";
 import { FaCogs, FaCloud, FaRocket, FaBriefcase } from "react-icons/fa";
 import CarruselTecnologias from "../components/TechCarousel";
@@ -8,11 +8,11 @@ import CarruselTecnologias from "../components/TechCarousel";
 function Home() {
   return (
     <>
-      <Helmet>
+      
         <title>Inicio | starts.cl</title>
         <meta name="description" content="Innovación tecnológica hecha en Chile. Soluciones digitales con impacto." />
         <link rel="canonical" href="https://www.starts.cl/" />
-      </Helmet>
+      
 
       {/* Hero / Eslogan */}
       <section className="bg-dark text-white py-28 sm:py-20">

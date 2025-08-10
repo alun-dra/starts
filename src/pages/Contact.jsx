@@ -1,6 +1,6 @@
 // src/pages/Contact.jsx
 import { useState } from "react";
-import { Helmet } from "react-helmet-async";
+
 import { FiMail, FiPhone, FiMapPin, FiSend } from "react-icons/fi";
 
 function Contact() {
@@ -45,7 +45,7 @@ function Contact() {
 
   return (
     <>
-      <Helmet>
+      
         {/* Básico */}
         <title>Contáctanos | Starts</title>
         <meta
@@ -106,7 +106,7 @@ function Contact() {
             }
           })}
         </script>
-      </Helmet>
+      
 
       {/* Hero */}
       <header className="relative bg-dark text-white overflow-hidden">

@@ -1,4 +1,4 @@
-import { Helmet } from "react-helmet-async";
+
 import fondo1 from "../assets/fondo1.jpg";
 
 const SITE_URL = import.meta.env.VITE_SITE_URL || "";
@@ -10,7 +10,7 @@ export default function Automatizacion() {
   return (
     <div className="min-h-screen flex flex-col bg-white text-dark">
       {/* Metadatos */}
-      <Helmet>
+      
         <title>Automatización y Migración a la Nube | starts</title>
 
         {/* SEO básico */}
@@ -40,7 +40,7 @@ export default function Automatizacion() {
           content="Automatización inteligente y migración a la nube: seguridad, escalabilidad y eficiencia."
         />
         {OG_IMAGE && <meta name="twitter:image" content={OG_IMAGE} />}
-      </Helmet>
+      
 
       {/* Hero */}
       <div
