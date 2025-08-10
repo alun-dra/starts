@@ -98,60 +98,59 @@ function Layout() {
 
       {/* Footer */}
       
-<footer className="bg-dark text-white py-12 mt-12">
-  <div className="max-w-[1100px] mx-auto px-4 sm:px-6 lg:px-8 text-sm">
-    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-      
-      {/* Logo */}
-      <div className="flex items-start">
-        <img src={logoSvg} alt="Logo starts" className="h-34 w-auto" />
-      </div>
+      <footer className="bg-dark text-white py-12 mt-12">
+        <div className="max-w-[1100px] mx-auto px-4 sm:px-6 lg:px-8 text-sm">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+            
+            {/* Logo */}
+            <div className="flex items-start">
+              <img src={logoSvg} alt="Logo starts" className="h-34 w-auto" />
+            </div>
 
-      {/* Oficinas */}
-      <div>
-        <p className="font-bold text-primary mb-4">Nuestras oficinas</p>
-        <p>Chile – Monseñor Sotero Sanz 100, Santiago de Chile</p>
-        <p>Estados Unidos – 108 Wild Basin Road South, Austin, Texas</p>
-      </div>
+            {/* Oficinas */}
+            <div>
+              <p className="font-bold text-primary mb-4">Nuestras oficinas</p>
+              <p>Chile - Ahumada 254, oficina 806 - Santiago de Chile</p>
+            </div>
 
-      {/* Servicios */}
-      <div>
-        <p className="text-primary font-bold mb-4">Servicios</p>
-        <ul className="space-y-2">
-          <li><a href="#" className="hover:text-primary transition">Automatización y migración a la nube</a></li>
-          <li><a href="#" className="hover:text-primary transition">Inteligencia de datos y analítica en la nube</a></li>
-          <li><a href="#" className="hover:text-primary transition">Inteligencia artificial y machine learning</a></li>
-          <li><a href="#" className="hover:text-primary transition">Infraestructura multicloud flexible</a></li>
-          <li><a href="#" className="hover:text-primary transition">Soluciones empresariales integradas</a></li>
-          <li><a href="#" className="hover:text-primary transition">Monitoreo industrial en tiempo real</a></li>
-        </ul>
-      </div>
+            {/* Servicios */}
+            <div>
+              <p className="text-primary font-bold mb-4">Servicios</p>
+              <ul className="space-y-2">
+                <li><a href="/automatizacionymigracion" className="hover:text-primary transition">Automatización y migración a la nube</a></li>
+                <li><a href="/inteligencia" className="hover:text-primary transition">Inteligencia de datos y analítica en la nube</a></li>
+                <li><a href="/inteligeniaArtificial" className="hover:text-primary transition">Inteligencia artificial y machine learning</a></li>
+                <li><a href="/infraestructura" className="hover:text-primary transition">Infraestructura multicloud flexible</a></li>
+                <li><a href="/solucionesempresariales" className="hover:text-primary transition">Soluciones empresariales integradas</a></li>
+                <li><a href="/monitoreo" className="hover:text-primary transition">Monitoreo industrial en tiempo real</a></li>
+              </ul>
+            </div>
 
-      {/* Acerca de nosotros + botón */}
-      <div className="flex flex-col gap-4">
-        {/* <div>
-          <p className="text-primary font-bold mb-4">Acerca de nosotros</p>
-          <ul className="space-y-2">
-            <li><a href="/nosotros" className="hover:text-primary transition">Conoce al equipo</a></li>
-            <li><a href="/alianzas" className="hover:text-primary transition">Alianzas</a></li>
-            <li><a href="/oficinas" className="hover:text-primary transition">Oficinas globales</a></li>
-          </ul>
-        </div> */}
-        <a
-          href="/contacto"
-          className="bg-accent text-white font-bold py-2 px-5 rounded-full shadow hover:brightness-105 transition w-fit"
-        >
-          Contáctanos
-        </a>
-      </div>
-    </div>
+            {/* Acerca de nosotros + botón */}
+            <div className="flex flex-col gap-4">
+              {/* <div>
+                <p className="text-primary font-bold mb-4">Acerca de nosotros</p>
+                <ul className="space-y-2">
+                  <li><a href="/nosotros" className="hover:text-primary transition">Conoce al equipo</a></li>
+                  <li><a href="/alianzas" className="hover:text-primary transition">Alianzas</a></li>
+                  <li><a href="/oficinas" className="hover:text-primary transition">Oficinas globales</a></li>
+                </ul>
+              </div> */}
+              <a
+                href="/contacto"
+                className="bg-accent text-white font-bold py-2 px-5 rounded-full shadow hover:brightness-105 transition w-fit"
+              >
+                Contáctanos
+              </a>
+            </div>
+          </div>
 
-    {/* Copyright */}
-    <div className="mt-8 text-center text-xs text-white/70">
-      © {new Date().getFullYear()} starts.cl - Todos los derechos reservados
-    </div>
-  </div>
-</footer>
+          {/* Copyright */}
+          <div className="mt-8 text-center text-xs text-white/70">
+            © {new Date().getFullYear()} starts.cl - Todos los derechos reservados
+          </div>
+        </div>
+      </footer>
 
 
 

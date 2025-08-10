@@ -25,7 +25,7 @@ function Home() {
               En <span className="text-primary font-semibold">starts</span> ofrecemos desarrollo de software personalizado, integración de sistemas y servicios cloud adaptados a las necesidades de tu empresa.
             </p>
             <a
-              href="#contacto"
+              href="/contacto"
               className="inline-block bg-accent text-dark font-semibold px-8 py-3 rounded-full shadow hover:brightness-110 transition transform hover:scale-105"
             >
               Comienza tu proyecto
@@ -133,22 +133,22 @@ function Home() {
               {
                 title: "Inteligencia artificial y machine learning",
                 desc: "Implementa modelos predictivos personalizados que mejoran la eficiencia operativa y la experiencia del usuario con IA adaptada a tu negocio.",
-                href: "#automatizacion" // enlace único
+                href: "/inteligeniaArtificial" // enlace único
               },
               {
                 title: "Infraestructura multicloud flexible",
                 desc: "Desarrollamos entornos híbridos y multicloud para maximizar rendimiento, disponibilidad y cumplimiento según tus necesidades técnicas y de negocio.",
-                href: "#automatizacion" // enlace único
+                href: "/infraestructura" // enlace único
               },
               {
                 title: "Soluciones empresariales integradas",
                 desc: "Diseñamos software a medida que se conecta con tus sistemas existentes para agilizar procesos internos, automatizar tareas y escalar tu operación.",
-                href: "#automatizacion" // enlace único
+                href: "/solucionesempresariales" // enlace único
               },
               {
                 title: "Monitoreo industrial en tiempo real",
                 desc: "Creamos sistemas de software para plantas industriales con visualización en tiempo real, control de procesos, alarmas y conexión con sensores o PLCs.",
-                href: "#automatizacion" // enlace único
+                href: "/monitoreo" // enlace único
               }
             ].map((item, idx) => (
               <div

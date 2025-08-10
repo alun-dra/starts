@@ -72,7 +72,7 @@ export default function Automatizacion() {
             permitiéndote escalar procesos y mantener un control centralizado en tiempo real.
           </p>
           <a
-            href="#contacto"
+            href="/contacto"
             className="inline-block mt-2 px-5 py-2 bg-primary text-white rounded-full font-semibold hover:bg-primary/90 transition"
           >
             Hablemos
@@ -93,7 +93,7 @@ export default function Automatizacion() {
           <br />
          
           <a
-            href="#contacto"
+            href="/contacto"
             className="inline-block mt-2 px-5 py-2 bg-primary text-white rounded-full font-semibold hover:bg-primary/90 transition"
           >
             Hablemos

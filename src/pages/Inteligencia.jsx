@@ -68,7 +68,7 @@ export default function Inteligencia() {
             </div>
 
             <a
-            href="#contacto"
+            href="/contacto"
             className="inline-block mt-8 px-6 py-3 bg-primary text-white rounded-full font-semibold hover:bg-primary/90 transition"
             >
             Conversemos
@@ -129,82 +129,86 @@ export default function Inteligencia() {
 
 
         {/* Sección: 4 pasos */}
-<section className="py-20">
-  <div className="max-w-[1100px] mx-auto px-6">
-    {/* Título */}
-    <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-center mb-2">
-      4 claves para impulsar tu{" "}
-      <span className="text-primary">transformación digital en la nube</span>
-    </h2>
-    <div className="h-1 w-14 bg-primary mx-auto rounded mt-4 mb-12"></div>
+      <section className="py-20">
+        <div className="max-w-[1100px] mx-auto px-6">
+          {/* Título */}
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-center mb-2">
+            4 claves para impulsar tu{" "}
+            <span className="text-primary">transformación digital en la nube</span>
+          </h2>
+          <div className="h-1 w-14 bg-primary mx-auto rounded mt-4 mb-12"></div>
 
-    {/* Grid de pasos */}
-    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
-      {/* Paso 1 - Descubrir */}
-      <div className="text-center animate-fade-in-up">
-        <div className="mx-auto mb-5 h-24 w-24 rounded-full bg-primary/10 flex items-center justify-center">
-          {/* bombilla */}
-          <svg width="44" height="44" viewBox="0 0 24 24" fill="none">
-            <path d="M9 18h6" stroke="#9D4EDD" strokeWidth="1.8" strokeLinecap="round"/>
-            <path d="M10 21h4" stroke="#9D4EDD" strokeWidth="1.8" strokeLinecap="round"/>
-            <path d="M12 3a6 6 0 0 0-3 11v1h6v-1a6 6 0 0 0-3-11Z" stroke="#9D4EDD" strokeWidth="1.8"/>
-          </svg>
+          {/* Grid de pasos */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
+            {/* Paso 1 - Descubrir */}
+            <div className="text-center animate-fade-in-up">
+              <div className="mx-auto mb-5 h-24 w-24 rounded-full bg-primary/10 flex items-center justify-center">
+                {/* bombilla */}
+                <svg width="44" height="44" viewBox="0 0 24 24" fill="none">
+                  <path d="M9 18h6" stroke="#9D4EDD" strokeWidth="1.8" strokeLinecap="round"/>
+                  <path d="M10 21h4" stroke="#9D4EDD" strokeWidth="1.8" strokeLinecap="round"/>
+                  <path d="M12 3a6 6 0 0 0-3 11v1h6v-1a6 6 0 0 0-3-11Z" stroke="#9D4EDD" strokeWidth="1.8"/>
+                </svg>
+              </div>
+              <h3 className="font-semibold text-lg mb-2">Descubrir</h3>
+              <p className="text-dark/70 leading-relaxed">
+                Identifica oportunidades y retos clave que tu empresa puede resolver con soluciones en la nube.
+              </p>
+            </div>
+
+            {/* Paso 2 - Planificar */}
+            <div className="text-center animate-fade-in-up [animation-delay:120ms]">
+              <div className="mx-auto mb-5 h-24 w-24 rounded-full bg-primary/10 flex items-center justify-center">
+                {/* calendario */}
+                <svg width="44" height="44" viewBox="0 0 24 24" fill="none">
+                  <rect x="3" y="5" width="18" height="16" rx="2" stroke="#9D4EDD" strokeWidth="1.8"/>
+                  <path d="M3 10h18" stroke="#9D4EDD" strokeWidth="1.8"/>
+                  <path d="M8 3v4M16 3v4" stroke="#9D4EDD" strokeWidth="1.8" strokeLinecap="round"/>
+                </svg>
+              </div>
+              <h3 className="font-semibold text-lg mb-2">Planificar</h3>
+              <p className="text-dark/70 leading-relaxed">
+                Diseña una hoja de ruta clara para implementar y escalar tus proyectos tecnológicos.
+              </p>
+            </div>
+
+            {/* Paso 3 - Optimizar */}
+            <div className="text-center animate-fade-in-up [animation-delay:240ms]">
+              <div className="mx-auto mb-5 h-24 w-24 rounded-full bg-primary/10 flex items-center justify-center">
+                {/* engranaje */}
+                <svg width="44" height="44" viewBox="0 0 24 24" fill="none">
+                  <circle cx="12" cy="12" r="3" stroke="#9D4EDD" strokeWidth="1.8"/>
+                  <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09a1.65 1.65 0 0 0-1-1.51 1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09a1.65 1.65 0 0 0 1.51-1 1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9c0 .69.4 1.31 1.02 1.58z" stroke="#9D4EDD" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
+              </div>
+              <h3 className="font-semibold text-lg mb-2">Optimizar</h3>
+              <p className="text-dark/70 leading-relaxed">
+                Mejora continuamente el rendimiento, la seguridad y la eficiencia de tus sistemas.
+              </p>
+            </div>
+
+            {/* Paso 4 - Escalar */}
+            <div className="text-center animate-fade-in-up [animation-delay:360ms]">
+              <div className="mx-auto mb-5 h-24 w-24 rounded-full bg-primary/10 flex items-center justify-center">
+                {/* flecha de crecimiento */}
+                <svg width="44" height="44" viewBox="0 0 24 24" fill="none">
+                  <path d="M3 17l6-6 4 4 8-8" stroke="#9D4EDD" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"/>
+                  <path d="M14 7h7v7" stroke="#9D4EDD" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
+              </div>
+              <h3 className="font-semibold text-lg mb-2">Escalar</h3>
+              <p className="text-dark/70 leading-relaxed">
+                Lleva tus soluciones a un mayor alcance y maximiza el impacto en tu negocio.
+              </p>
+            </div>
+
+            
+          </div>
         </div>
-        <h3 className="font-semibold text-lg mb-2">Descubrir</h3>
-        <p className="text-dark/70 leading-relaxed">
-          Identifica oportunidades y retos clave que tu empresa puede resolver con soluciones en la nube.
-        </p>
-      </div>
+      </section>
 
-      {/* Paso 2 - Planificar */}
-      <div className="text-center animate-fade-in-up [animation-delay:120ms]">
-        <div className="mx-auto mb-5 h-24 w-24 rounded-full bg-primary/10 flex items-center justify-center">
-          {/* calendario */}
-          <svg width="44" height="44" viewBox="0 0 24 24" fill="none">
-            <rect x="3" y="5" width="18" height="16" rx="2" stroke="#9D4EDD" strokeWidth="1.8"/>
-            <path d="M3 10h18" stroke="#9D4EDD" strokeWidth="1.8"/>
-            <path d="M8 3v4M16 3v4" stroke="#9D4EDD" strokeWidth="1.8" strokeLinecap="round"/>
-          </svg>
-        </div>
-        <h3 className="font-semibold text-lg mb-2">Planificar</h3>
-        <p className="text-dark/70 leading-relaxed">
-          Diseña una hoja de ruta clara para implementar y escalar tus proyectos tecnológicos.
-        </p>
-      </div>
-
-      {/* Paso 3 - Optimizar */}
-      <div className="text-center animate-fade-in-up [animation-delay:240ms]">
-        <div className="mx-auto mb-5 h-24 w-24 rounded-full bg-primary/10 flex items-center justify-center">
-          {/* engranaje */}
-          <svg width="44" height="44" viewBox="0 0 24 24" fill="none">
-            <circle cx="12" cy="12" r="3" stroke="#9D4EDD" strokeWidth="1.8"/>
-            <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09a1.65 1.65 0 0 0-1-1.51 1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09a1.65 1.65 0 0 0 1.51-1 1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9c0 .69.4 1.31 1.02 1.58z" stroke="#9D4EDD" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"/>
-          </svg>
-        </div>
-        <h3 className="font-semibold text-lg mb-2">Optimizar</h3>
-        <p className="text-dark/70 leading-relaxed">
-          Mejora continuamente el rendimiento, la seguridad y la eficiencia de tus sistemas.
-        </p>
-      </div>
-
-      {/* Paso 4 - Escalar */}
-      <div className="text-center animate-fade-in-up [animation-delay:360ms]">
-        <div className="mx-auto mb-5 h-24 w-24 rounded-full bg-primary/10 flex items-center justify-center">
-          {/* flecha de crecimiento */}
-          <svg width="44" height="44" viewBox="0 0 24 24" fill="none">
-            <path d="M3 17l6-6 4 4 8-8" stroke="#9D4EDD" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"/>
-            <path d="M14 7h7v7" stroke="#9D4EDD" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"/>
-          </svg>
-        </div>
-        <h3 className="font-semibold text-lg mb-2">Escalar</h3>
-        <p className="text-dark/70 leading-relaxed">
-          Lleva tus soluciones a un mayor alcance y maximiza el impacto en tu negocio.
-        </p>
-      </div>
-    </div>
-  </div>
-</section>
-
+  
+      
 
     </div>
   );

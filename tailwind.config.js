@@ -18,6 +18,8 @@ export default {
         'zoom-in': 'zoomIn 500ms ease-out both',
         'slide-up': 'slideUp 600ms cubic-bezier(.22,.9,.3,1) both',
         'pulse-soft': 'pulseSoft 1500ms ease-in-out infinite',
+        'float-y': 'floatY 4s ease-in-out infinite',      // NUEVA
+        'shimmer': 'shimmer 2.2s linear infinite',     
       },
       // Fotogramas clave
       keyframes: {
@@ -41,6 +43,14 @@ export default {
           '0%, 100%': { transform: 'scale(1)',   opacity: 1 },
           '50%':      { transform: 'scale(1.02)', opacity: .96 },
         },
+        floatY: {
+          '0%,100%': { transform: 'translateY(0)' },
+          '50%':     { transform: 'translateY(-8px)' },
+        },
+        shimmer: {
+          '0%':   { backgroundPosition: '-200% 0' },
+          '100%': { backgroundPosition: '200% 0' },
+        },  
       },
     },
   },
